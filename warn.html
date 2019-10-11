@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Warning!</title>
+    <style>
+        h1, h3, p, dt, dd, li {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        WARNING PAGE!
+    </h1>
+    <h3>
+        You are seeing this page as system caught you making an illegal attempt to cheat online test. <br><br>3 such attempts and your exam will be over
+    </h3>
+    <pre style="background-color: whitesmoke;width: fit-content; padding: 10px; border-radius: 8px;border: 1px solid rgba(0,0,0,0.1);" id="count"></pre>
+    <p>Close this tab and continue with your exam</p>
+    <script>
+        let params = new window.URLSearchParams(location.search);
+        console.log(params.get('count').toString());
+        document.getElementById('count').innerText = "Illegal attempts = " + params.get('count').toString();
+    </script>
+</body>
+</html>
