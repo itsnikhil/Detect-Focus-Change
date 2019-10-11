@@ -45,11 +45,11 @@ Add `class pagecontainer` to all whole quiz section to remove content if javascr
 _Alert warning if popup is blocked_
 ![Alert warning if popup is blocked](https://raw.githubusercontent.com/itsnikhil/Detect-Focus-Change/master/Screenshots/alert%20warning%20if%20popup%20is%20blocked.png)
 
-_Sample warning if windows is found cheating_
-![Sample warning if windows is found cheating](https://github.com/itsnikhil/Detect-Focus-Change/blob/master/Screenshots/warning%20on%20cheating.png)
+_Sample warning if found cheating_
+![Sample warning if found cheating](https://github.com/itsnikhil/Detect-Focus-Change/blob/master/Screenshots/warning%20on%20cheating.png)
 
 _When 3 illegal attempt is made_
-![When 3 illegal attempt is made](https://github.com/itsnikhil/Detect-Focus-Change/blob/master/Screenshots/take%20action.png)
+![When 3 illegal attempts are made](https://github.com/itsnikhil/Detect-Focus-Change/blob/master/Screenshots/take%20action.png)
 
 ## Works on
   So far I have tested on:
