@@ -14,7 +14,7 @@
 
 ### Step 1:
 
-#### Add script checkFocus.js in head section.
+Add `script checkFocus.js` in head section.
 ```html
 <head>
   ...
@@ -22,10 +22,10 @@
   ...
 ```
 ### Step 2:
-#### Change function takeAction() from the above mentioned script's (checkFocus.js) code to auto submit the test.
+Change `function takeAction()` from the above mentioned script's (checkFocus.js) code to auto submit the test.
 
 ### Step 3:
-#### Add class pagecontainer to all whole quiz section to remove content if javascript is disabled as webpage focus detection depends upon javascript execution then paste the code given below just before ending of html tag
+Add `class pagecontainer` to all whole quiz section to remove content if javascript is disabled as webpage focus detection depends upon javascript execution then paste the code given below just before ending of html tag
 
 ```html
   ...
